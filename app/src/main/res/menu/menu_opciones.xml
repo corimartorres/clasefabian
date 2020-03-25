@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/btn_menu"
+        android:icon="@drawable/ic_menu"
+        android:title="@string/opciones"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/btn_limpiar"
+                android:icon="@drawable/ic_clear_"
+                android:title="@string/limpiar_datos"
+                />
+            <item
+                android:id="@+id/btn_contacto"
+                android:icon="@drawable/ic_contacto"
+                android:title="@string/lista_de_contactos"
+                />
+        </menu>
+
+    </item>
+
+</menu>
